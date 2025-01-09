@@ -1,5 +1,7 @@
+import 'regenerator-runtime/runtime'
 import localFont from "next/font/local";
 import "./globals.css";
+
 
 
 const geistSans = localFont({

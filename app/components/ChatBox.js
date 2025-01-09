@@ -4,6 +4,9 @@ import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 
 
+
+
+
 const ChatBox = ({ inputData }) => {
   
   const [allData, setAllData] = useState([]);  
@@ -68,8 +71,13 @@ const ChatBox = ({ inputData }) => {
             <div className="text-yellow-300">Q: {data}</div> 
             <div className="text-gray-100 mt-2">Loading...</div>
           </div>
+
+
         )}
+         
       </div>
+
+      
    
   );
 };
