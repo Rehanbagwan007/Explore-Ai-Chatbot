@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Explore-AI Chatbot
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Gemini AI](https://img.shields.io/badge/Gemini-2.0-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
-First, run the development server:
+## Overview
+Explore-AI Chatbot is an interactive AI-powered chatbot built with **Next.js** and **Tailwind CSS**, leveraging **Google Gemini 2.0 Flash** for intelligent responses. The chatbot provides real-time conversations and contextual understanding for a seamless AI experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Features 🚀
+
+- **AI-Powered Conversations** 🤖 - Uses Google Gemini 2.0 Flash for natural and intelligent responses.
+- **Real-Time Chat Experience** ⏳ - Instant user interaction with AI-generated responses.
+- **Contextual Understanding** 🧠 - Maintains conversation context for meaningful replies.
+- **User-Friendly UI** 🎨 - Clean and responsive design built with Tailwind CSS.
+- **Next.js Optimization** ⚡ - Fast and efficient rendering with server-side capabilities.
+
+## Tech Stack 🛠️
+
+- **Frontend**: Next.js, Tailwind CSS
+- **AI Services**: Google Gemini 2.0 Flash (for chatbot responses)
+- **Hosting**: GitHub Pages (for frontend deployment)
+
+## Folder Structure 📁
+
+```
+📦 Explore-AI-Chatbot
+├── 📂 components
+├── 📂 pages
+├── 📂 public
+├── 📂 styles
+├── 📂 utils
+├── 📜 .gitignore
+├── 📜 next.config.js
+├── 📜 package.json
+├── 📜 README.md
+├── 📜 tailwind.config.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deployment 🚀
+The project is live at: [Explore-AI Chatbot](https://rehanbagwan007.github.io/Explore-Ai-Chatbot/)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Installation & Setup 🏗️
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/Explore-Ai-Chatbot.git
+   cd Explore-Ai-Chatbot
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
+4. Open your browser and go to:
+   ```
+   http://localhost:3000
+   ```
 
-## Learn More
+## Contributing 🤝
+Feel free to fork the repo and contribute. Pull requests are welcome!
 
-To learn more about Next.js, take a look at the following resources:
+## License 📝
+This project is licensed under the MIT License.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
+Developed with ❤️ by **Rehan Bagwan** 🚀
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
